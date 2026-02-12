@@ -16,10 +16,10 @@ public class Grad extends Student{
 
     @Override
     public double calculateTuition() {
-        // Base tuition: $15,000 per semester
+     
         double baseTuition = 15000.0;
 
-        // Research assistants get tuition waiver
+        
         if (researchAssistant) {
             return 0.0;
         }
@@ -39,11 +39,11 @@ public class Grad extends Student{
 
     }
     public static class Builder {
-        // Required parameters
+        
         private String studentId;
         private String name;
 
-        // Optional parameters
+       
         private String email = "";
         private String department = "";
         private boolean researchAssistant = false;
