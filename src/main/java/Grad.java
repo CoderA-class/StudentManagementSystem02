@@ -19,7 +19,7 @@ public class Grad extends Student{
 
         double baseTuition = 15000.0;
 
-        // Research assistants get tuition waiver
+
         if (researchAssistant) {
             return 0.0;
         }

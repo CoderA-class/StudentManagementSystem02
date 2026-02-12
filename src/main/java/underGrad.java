@@ -33,11 +33,11 @@ public String getStudentType(){
 }
 
     public static class Builder {
-        // Required parameters
+
         private String studentId;
         private String name;
 
-        // Optional parameters
+
         private String email = "";
         private String department = "";
         private int creditHours = 0;
