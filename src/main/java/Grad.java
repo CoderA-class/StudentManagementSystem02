@@ -16,7 +16,7 @@ public class Grad extends Student{
 
     @Override
     public double calculateTuition() {
-        // Base tuition: $15,000 per semester
+
         double baseTuition = 15000.0;
 
         // Research assistants get tuition waiver
@@ -34,8 +34,8 @@ public class Grad extends Student{
     public void displayStudentDetails() {
         super.displayStudentDetails();
         System.out.println("Research Assistant: " + (researchAssistant ? "Yes" : "No"));
-        System.out.println("Stipend: $" + String.format("%.2f", stipend));
-        System.out.println("Total Tuition: $" + String.format("%.2f", calculateTuition()));
+        System.out.println("Stipend: R" + String.format("%.2f", stipend));
+        System.out.println("Total Tuition: R" + String.format("%.2f", calculateTuition()));
 
     }
     public static class Builder {
