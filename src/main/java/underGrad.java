@@ -14,7 +14,7 @@ public class underGrad extends Student {
 
     @Override
     public double calculateTuition() {
-        double baseT = creditHours * 20.0;
+        double baseT = creditHours * 20.0; //not sure what they pay
         return baseT - scholarshipAmount;
 
 
